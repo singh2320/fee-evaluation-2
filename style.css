@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Original Surfer', cursive;
+            background-color: rgb(0, 10, 13);
+            text-align: center;
+            /* overflow: hidden; */
+            margin: 0;
+        }
+
+        
+
+        h2 {
+            margin: 50px 0 20px 0;
+            text-align: center;
+        }
+
+        small {
+            display: block;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .fa-heart {
+            color: #ff007f;
+        }
+
+        .loveMe {
+            width: 100%;
+            background: url('m.jpg') no-repeat center center/cover;
+            margin-top: 50px;
+            height: auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .loveMe .fa-heart {
+            position: absolute;
+            animation: grow 0.6s linear;
+            transform: translate(-50%, -50%) scale(0);
+        }
+
+        @keyframes grow {
+            to {
+                transform: translate(-50%, -50%) scale(13);
+                opacity: 0;
+            }
+        }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Instagram-like Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Double Click To Like❤️</a>
+        <!-- Add search bar, profile icon, etc. -->
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="container mt-4 rounded-md">
+        <!-- Homepage Feed -->
+        <div class="row">
+            <!-- Loop through posts -->
+            <div class="col-md-4 mb-4 ">
+                <div class="card rounded-md">
+                    <div class="loveMe position-relative">
+                        <img src="images/m.jpg" class="card-img-top" alt="Instagram Post Image">
+                        <!-- Add Font Awesome heart icon -->
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">My first Car🚗</h5>
+                        <p class="card-text"></p>
+                         Double Click To Like!
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other posts -->
+            <div class="col-md-4 mb-4 ">
+                <div class="card rounded-md">
+                    <div class="loveMe position-relative">
+                        <img src="images/p2.jpg" class="card-img-top" alt="Instagram Post Image">
+                        <!-- Add Font Awesome heart icon -->
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Eye Warming..</h5>
+                        <p class="card-text"></p>
+                        Double Click To Like!
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 ">
+                <div class="card rounded-md">
+                    <div class="loveMe position-relative">
+                        <img src="images/p3.webp" class="card-img-top" alt="Instagram Post Image">
+                        <!-- Add Font Awesome heart icon -->
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Beautiful Sunset🌆</h5>
+                        <p class="card-text"></p>
+                        Double Click To Like!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">Nothing More Here...</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
